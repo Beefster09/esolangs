@@ -3,7 +3,7 @@ Esoteric Programming Languages
 
 Stuff I make when I'm bored...
 
-==Hanoiing - an esolang inspired by the Towers of Hanoi puzzle==
+##Hanoiing - an esolang inspired by the Towers of Hanoi puzzle
 Language is unicode based and uses a single unbounded integer register, three
  unbounded stacks of unbounded integer size each of which maintain the
  invariant that each element is smaller than the one under it.
@@ -11,7 +11,7 @@ Language is unicode based and uses a single unbounded integer register, three
 Instructions are as following:
 * a, b, c: pop the top value from the corresponding stack into the register and branch if empty
 * A, B, C: push the register value onto the corresponding stack and branch if invalid
-**  Branching executes the next character and skips it otherwise
+    * Branching executes the next character and skips it otherwise
 * =: set the register to the value represented by the following decimal digits
 * +, -: increment/decrement the register
 * ~: negate the register
