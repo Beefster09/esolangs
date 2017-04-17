@@ -3,7 +3,7 @@ Esoteric Programming Languages
 
 Stuff I make when I'm bored...
 
-##Hanoiing - an esolang inspired by the Towers of Hanoi puzzle
+## Hanoiing - an esolang inspired by the Towers of Hanoi puzzle
 Language is unicode based and uses a single unbounded integer register, three
  unbounded stacks of unbounded integer size each of which maintain the
  invariant that each element is smaller than the one under it.
